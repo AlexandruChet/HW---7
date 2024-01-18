@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+a[href^="https"] {
+    color: red;
+  }
+
+
+  ul + p {
+    font-size: 24px;
+  }
+
+
+  /* styles.css */
+
+body {
+    font-family: "Rotobo";
+    background-color: #ffffff;
+    color: #000;
+  }
+  
+  h1 {
+    color: #000;
+  }
+  
+
+  :root {
+    --main-background-color: #fff;
+    --header-text-color: #000;
+}
+
+body {
+    background-color: var(--main-background-color);
+    
+}
+
+a {
+    color: var(--link-color);
+ }
+
+/* h1 */
+h1:first-of-type {
+  background-color: #fff; /* */
+}
+/* style.css */
+
+/*  h1 */
+h1:last-of-type {
+  background-color: 
+  #2F303A;
+}
