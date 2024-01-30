@@ -3,7 +3,7 @@ a[href^="https"] {
     color: red;
   }
 
-  /* styles.css */
+
 
 body {
     font-family: "Rotobo";
@@ -18,26 +18,53 @@ body {
 
   :root {
     --main-background-color: #fff;
-    --header-text-color: #000;
+    --header-text-color: #2F303A;
 }
 
 body {
     background-color: var(--main-background-color);
+    color: #212121;
+    width: 1600px;
+height: 80px;
+flex-shrink: 0;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
     
 }
 
 a {
     color: var(--link-color);
+    color: #212121;
+
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
  }
 
-/* h1 */
+
 h1:first-of-type {
   background-color: #fff; /* */
+  display: flex;
+width: 1600px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 94px;
 }
-/* style.css */
 
-/*  h1 */
+
+
 h1:last-of-type {
   background-color: 
   #2F303A;
+  width: 1600px;
+height: 252px;
+flex-shrink: 0;
 }
