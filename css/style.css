@@ -47,6 +47,26 @@ font-weight: 700;
 line-height: 36px; /* 200% */
 letter-spacing: 1.08px;
  }
+ 
+  
+ header {
+  background-color: #ffffff;
+  text-align: center;
+  color: #000;
+}
+
+footer{
+  background-color: #2F303A;
+  color: #fff;
+}
+div{
+  background-color: #2F303A;
+  color: #fff;
+  text-align: center;
+}
+li{
+  list-style-type: none;
+}
 
 
 h1:first-of-type {
